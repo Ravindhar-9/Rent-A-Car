@@ -155,38 +155,37 @@ nav ul li {
    justify-content: center;
 }
 
-/* Contact Section Styles */
-/* CSS for Contact Us section */
+
 #contact {
-    background-color: #f9f9f9; /* Background color for the section */
-    padding: 30px 0; /* Padding for top and bottom */
-    text-align: center; /* Center-align the content */
+    background-color: #f9f9f9; 
+    padding: 30px 0;
+    text-align: center; 
 }
 
 .contact-info {
-    max-width: 600px; /* Set maximum width for the contact info */
-    margin: 0 auto; /* Center the contact info horizontally */
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .contact h2 {
-    font-size: 2em; /* Adjust the font size of the heading */
-    margin-bottom: 20px; /* Add margin at the bottom of the heading */
+    font-size: 2em; 
+    margin-bottom: 20px; 
 }
 
 .contact-info .email p {
-    font-size: 1.2em; /* Adjust the font size of the email and phone */
-    margin-bottom: 5px; /* Add margin at the bottom of each paragraph */
+    font-size: 1.2em;
+    margin-bottom: 5px; 
 }
 
-/* Optional: Style the email and phone differently */
+
 .contact-info .email p:first-child {
-    font-weight: bold; /* Make the email bold */
-    color: #333; /* Change color for better readability */
+    font-weight: bold; 
+    color: #333; 
 }
 
 .contact-info .email p:last-child {
-    font-style: bold; /* Make the phone number italic */
-    color: black; /* Change color for better readability */
+    font-style: bold; 
+    color: black; 
 }
 
 
@@ -408,22 +407,20 @@ button {
     color: transparent;
 }
 .card {
-    position: relative; /* Required for absolute positioning of .supra */
-    /* Your existing styles */
+    position: relative; 
 }
 
 .supra {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the text */
-    display: none; /* Initially hide the span */
-    /* Additional styles for visibility */
+    transform: translate(-50%, -50%); 
+    display: none; 
     padding-bottom: 0px;
 }
 
 .card:hover .supra {
-    display: block; /* Show the span when hovering over .card */
+    display: block; 
 }
 
 .sample{
@@ -431,23 +428,23 @@ button {
 }
 #booking {
     
-    background-image: url('download.jpg'); /* Replace 'background.jpg' with your image file */
-    background-size: cover; /* Cover the entire background */
-    background-position: center; /* Center the background image */
-    padding: 50px; /* Add padding for better visibility */
-    text-align: center; /* Center the content */
+    background-image: url('download.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 50px;
+    text-align: center; 
 }
 
 /* Styling for the booking form */
 .booking-form {
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.7); 
     padding: 40px;
     border-radius: 5px;
-    display: inline-block; /* Center the form */
+    display: inline-block; 
 }
 
 .booking-form h2 {
-    margin-bottom: 20px; /* Add spacing below the heading */
+    margin-bottom: 20px; 
 }
 
 .booking-form label {
