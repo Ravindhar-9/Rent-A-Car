@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video controls autoplay loop muted plays-inline class="video">
+        <source src="mp2.mp4" type="video/mp4">
+    </video>
+
+    <nav>
+        <div class="rent">RENT A CAR</div>
+        <ul class="info">
+            <li class="home" style="margin-left: 20px;"><a href="#home">Home</a></li>
+            <li class="home"><a href="#about">About</a></li>
+            <li class="home"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="hero">
+            <h2 id="typewriter-heading"></h2>
+            <p>Explore our wide range of cars for rent</p>
+            <button>
+                <span><a href="#booking" class="btn">Book Now</a></span>
+            </button>
+        </div>
+    </section>
+    
+
+    <section id="about">
+        <div class="about-content">
+            <h2>ABOUT US</h2>
+            <p class="about-content">We have all types of cars.</p>
+        </div>
+    </section>
+          <div class="offer">
+           <h4> we offer </h4>
+           </div>
+
+    <div class="sample">
+        
+        <div class="card">
+            <img src="OIG1.jpg">
+            <span class="supra">SUPRA</span>
+          </div>
+          <div class="card">
+            <img src="images.jpg">
+          </div>
+          <div class="card">
+            <img src="images (1).jpg">
+          </div>
+    </div><div class="booking-car"></div>
+    <section id="booking">
+        <div class="booking-form">
+            <div class="book">
+                <h2>Book Your Car</h2>
+            </div>
+            
+            <form class="booking-car" action="booking_process.php" method="POST">
+                <label for="car-select">Select a Car:</label>
+                <select class="car-select" id="car-select" name="car-select">
+                    <option value="innova">Toyota Innova</option>
+                    <option value="nexa">nexa</option>
+                    <option value="i10">i10</option>
+                    <option value="i20">i20</option>
+                    <option value="NEO">POLO</option>
+                    <option value="SUPRA">SUPRA</option>
+                    <option value="GTR">GTR</option>
+                    <!-- Add more options for other cars -->
+                </select>
+                <label for="pickup-location">Pickup Location:</label>
+                <input type="text" id="pickup-location" name="pickup-location" required>
+
+                <label for="return-location">Destination:</label>
+                <input type="text" id="return-location" name="return-location" required>
+
+                <label for="pickup-date">Pickup Date:</label>
+                <input class="Pickup" type="date" id="pickup-date" name="pickup-date" required>
+                
+                <label for="return-date">Return Date:</label>
+                <input type="date" id="return-date" name="return-date" required disabled>
+
+                <div class="submit">
+                 <button type="submit">Submit</button>
+                </div>
+               </div>
+            </form>
+        </div>
+    </section>
+<div class="cont">
+    <section id="contact">
+        <div class="contact-info">
+            <h2 class="contact">Contact Us</h2>
+            <div class="email">
+                <p>Email: domethinr@gmail.com</p>
+                <p>Phone: 8855669988</p>
+            </div>
+        </div>
+    </section>
+    
+</div>
+    <footer>
+        <p>&copy; 2024 Car Rental Service</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
